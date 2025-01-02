@@ -4,11 +4,16 @@
 
 ## Git Commands
 * ### Clone a remote repository in a local computer
-    ``git clone repository_url``
+    ``git clone <repository_url>``
 
     Example:
 
         git clone https://github.com/ever-utn-devops/git-branching.git
+
+* ### Initialize a New Repository
+    This command initializes a new Git repository in the specified directory. If run in an existing project directory, it creates a Git repository in that directory.
+    
+    ``git init``
 
 * ### Checking the current branch
     ``git branch``
@@ -18,15 +23,94 @@
         git branch
 
 * ### Creating a new branch
-    ``git branch -M new_branchname``
+    ``git branch -M <branch_name>``
 
     Example:
 
         git branch -M test
 
-* ### Moving to another branch
-    ``git checkout branch_name``
+* ### Switching to another branch
+    ``git checkout <branch_name>``
 
     Example:
 
         git checkout test
+
+* ### Creating and switching to a new branch
+    ``git checkout -b <branch_name>``
+
+    Example:
+
+        git checkout -b test2
+
+* ### Add files to the repository
+    Adding all changed files to the repository
+    ``git add .``
+
+    Example:
+        
+        git add .
+    
+    Adding only a file to the repository
+    ``git add <file_name>``
+
+    Example:
+        
+        git add server.js
+
+* ### Commit changes
+    Commit the staged changes to the repository with a message. The ``-m``flag allows you to specify a commit message directly.
+
+    ``git commit -m "commit message" ``
+
+    Example:
+        
+        git commit -m "new printing fuctionality"
+
+* ### Push Changes to Github
+    Pushing local commits to the remote repository. The ``-u`` flag sets the upstream branch.
+
+    ``git push -u origin <branch_name> ``
+
+    Examples:
+        
+        git push
+
+        or 
+
+        git push -u origin dev
+
+* ### Merge changes to another branch
+    Merge the specified branch into the current branch
+   
+    ``git remote add origin <repository_url> ``
+
+    Examples:
+        
+        git remote add origin https://github.com/ever-utn-devops/git-branching.git
+
+* ### Link to a remote repository
+   
+    ``git remote add origin <repository_url> ``
+
+    Examples:
+        
+        git remote add origin https://github.com/ever-utn-devops/git-branching.git
+
+* ### Checking status and history
+    Shows the status of changes as untracked, modified or staged. It provides a snapshot of the current state.
+   
+    ``git status ``
+
+* ### View Commit History
+   
+    ``git log ``
+
+* ### Undoing changes
+    Undo changes in the working repository
+   
+    ``git checkout -- <file_name> ``
+
+    Examples:
+        
+        git checkout -- server.js
