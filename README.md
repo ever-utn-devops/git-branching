@@ -114,3 +114,12 @@
     Examples:
         
         git checkout -- server.js
+
+* ### Pull changes from a remote repository
+    Fetches changes from a remote repository and merges them into the current branch.
+ 
+    ``git pull origin <branch_name> ``
+
+    Examples:
+        
+        git pull origin main
