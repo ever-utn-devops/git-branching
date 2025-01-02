@@ -123,3 +123,21 @@
     Examples:
         
         git pull origin main
+
+* ### Stash changes from a remote repository
+    It takes the uncommitted changes, save them away for later use, and then reverts them from your working copy
+ 
+    ``git stash ``
+
+* ### Re-apply or recover a stashed changes
+    Recover all stashed changes and delete the stashes changes.
+ 
+    ``git stash pop``
+
+    Recover all stashed changes and keep them.
+ 
+    ``git stash apply``
+
+* ### Show all stashed changes
+ 
+    ``git stash list``
