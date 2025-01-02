@@ -141,3 +141,21 @@
 * ### Show all stashed changes
  
     ``git stash list``
+
+* ### Soft reset from a remote repository
+    Reset from remote branch getting historical changes and keeping the current local changes as unstashed and uncommitted.
+ 
+    ``git reset --soft origin <branch_name>``
+
+    Example:
+        
+        git reset --soft origin main
+
+* ### Hard reset from a remote repository
+    Reset from remote branch replacing the current local changes from historical and lastest changes.
+ 
+    ``git reset --hard origin <branch_name>``
+
+    Example:
+        
+        git reset --hard origin main
