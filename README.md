@@ -154,8 +154,22 @@
 * ### Hard reset from a remote repository
     Reseting from remote branch replacing the current local changes from historical and lastest changes.
  
-    ``git reset --hard origin <branch_name>``
+    ``git reset --hard origin/<branch_name>``
 
     Example:
         
-        git reset --hard origin main
+        git reset --hard origin/main
+
+* ### Cherry-pick command to move commit to another branch
+    It is used when moving specific commit to another branch.
+ 
+    ``git cherry-pick <commit_sha>``
+
+    Example:
+        
+        git cherry-pick 0bca21a299df35074e7599cba37346b028717ba1
+
+* ### Cherry-pick abort
+    Aborting a cherry-pick.
+ 
+    ``git cherry-pick --abort``
