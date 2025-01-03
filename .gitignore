@@ -2,6 +2,8 @@
 /rooms-api/node_modules/
 /rooms-api/dist/
 /rooms-api/.env
+/rooms-api/.DS_Store
+.DS_Store
 
 
 # Logs

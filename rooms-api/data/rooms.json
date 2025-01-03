@@ -1,0 +1,128 @@
+[
+    {
+        "room": "CR1-100",
+        "capacity": 4,
+        "is_busy": false,
+        "user": "",
+        "date": null
+    },
+    {
+        "room": "CR1-200",
+        "capacity": 1,
+        "is_busy": true,
+        "user": "kgonzalez",
+        "date": "2024-12-05"
+    },
+    {
+        "room": "CR1-300",
+        "capacity": 8,
+        "is_busy": false,
+        "user": "",
+        "date": null
+    },
+    {
+        "room": "CR1-400",
+        "capacity": 6,
+        "is_busy": false,
+        "user": "",
+        "date": null
+    },
+    {
+        "room": "CR1-500",
+        "capacity": 4,
+        "is_busy": false,
+        "user": "",
+        "date": null
+    },
+    {
+        "room": "CR1-600",
+        "capacity": 2,
+        "is_busy": true,
+        "user": "kescalante",
+        "date": "2024-12-05"
+    },
+    {
+        "room": "CR1-700",
+        "capacity": 1,
+        "is_busy": true,
+        "user": "danchia",
+        "date": "2024-12-05"
+    },
+    {
+        "room": "CR1-800",
+        "capacity": 6,
+        "is_busy": false,
+        "user": "",
+        "date": null
+    },
+    {
+        "room": "CR1-900",
+        "capacity": 4,
+        "is_busy": false,
+        "user": "",
+        "date": null
+    },
+    {
+        "room": "CR2-100",
+        "capacity": 6,
+        "is_busy": false,
+        "user": "",
+        "date": null
+    },
+    {
+        "room": "CR2-200",
+        "capacity": 1,
+        "is_busy": false,
+        "user": "",
+        "date": null
+    },
+    {
+        "room": "CR2-300",
+        "capacity": 6,
+        "is_busy": true,
+        "user": "nherrera",
+        "date": "2024-12-05"
+    },
+    {
+        "room": "CR2-400",
+        "capacity": 1,
+        "is_busy": false,
+        "user": "",
+        "date": null
+    },
+    {
+        "room": "CR2-500",
+        "capacity": 2,
+        "is_busy": true,
+        "user": "estudiante",
+        "date": "2024-12-05"
+    },
+    {
+        "room": "CR2-600",
+        "capacity": 8,
+        "is_busy": false,
+        "user": "",
+        "date": null
+    },
+    {
+        "room": "CR2-700",
+        "capacity": 6,
+        "is_busy": false,
+        "user": "",
+        "date": null
+    },
+    {
+        "room": "CR2-800",
+        "capacity": 2,
+        "is_busy": true,
+        "user": "mvillalta",
+        "date": "2024-12-05"
+    },
+    {
+        "room": "CR2-900",
+        "capacity": 12,
+        "is_busy": false,
+        "user": "",
+        "date": null
+    }
+]

@@ -1,0 +1,186 @@
+[
+    {
+        "username": "estudiante",
+        "password": "123456",
+        "name": "Estudiante",
+        "isActive": true,
+        "lastname": "Representante Estudiantil",
+        "emailname": "estudiante@est.utn.ac.cr"
+    }, 
+    {
+        "username": "mvillalta",
+        "password": "123456",
+        "name": "Jose",
+        "isActive": true,
+        "lastname": "Mora Villal†a",
+        "emailname": "mvillalta@est.utn.ac.cr"
+    }, 
+    {
+        "username": "maraya",
+        "password": "123456",
+        "name": "Carlos",
+        "isActive": false,
+        "lastname": "Mena Araya",
+        "emailname": "maraya@est.utn.ac.cr"
+    }, 
+    {
+        "username": "yaguirre",
+        "password": "123456",
+        "name": "Yadrick",
+        "isActive": false,
+        "lastname": "aguirre",
+        "emailname": "yaguirre@est.utn.ac.cr"
+    }, 
+    {
+        "username": "danchia",
+        "password": "123456",
+        "name": "Dayron",
+        "isActive": true,
+        "lastname": "Anchia",
+        "emailname": "danchia@est.utn.ac.cr"
+    }, 
+    {
+        "username": "daragon",
+        "password": "123456",
+        "name": "Deyfran",
+        "isActive": true,
+        "lastname": "Aragon",
+        "emailname": "daragon@est.utn.ac.cr"
+    }, 
+    {
+        "username": "mjenriquez",
+        "password": "123456",
+        "name": "Maria Jose",
+        "isActive": false,
+        "lastname": "Enriquez",
+        "emailname": "mjenriquez@est.utn.ac.cr"
+    }, 
+    {
+        "username": "kescalante",
+        "password": "123456",
+        "name": "Keylor",
+        "isActive": false,
+        "lastname": "Escalante",
+        "emailname": "kescalante@est.utn.ac.cr"
+    }, 
+    {
+        "username": "kgonzalez",
+        "password": "123456",
+        "name": "Kenneth",
+        "isActive": false,
+        "lastname": "Gonzalez",
+        "emailname": "kgonzalez@est.utn.ac.cr"
+    }, 
+    {
+        "username": "nherrera",
+        "password": "123456",
+        "name": "Nidia",
+        "isActive": false,
+        "lastname": "Herrera",
+        "emailname": "nherrera@est.utn.ac.cr"
+    }, 
+    {
+        "username": "zlopez",
+        "password": "123456",
+        "name": "Zaylin",
+        "isActive": false,
+        "lastname": "Lopez",
+        "emailname": "zlopez@est.utn.ac.cr"
+    }, 
+    {
+        "username": "dmejia",
+        "password": "123456",
+        "name": "Daniel",
+        "isActive": false,
+        "lastname": "Mejia",
+        "emailname": "dmejia@est.utn.ac.cr"
+    }, 
+    {
+        "username": "emarodriguez",
+        "password": "123456",
+        "name": "Emmanuelle",
+        "isActive": true,
+        "lastname": "Rodriguez",
+        "emailname": "emarodriguez@est.utn.ac.cr"
+    }, 
+    {
+        "username": "vrodriguez",
+        "password": "123456",
+        "name": "Valery",
+        "isActive": false,
+        "lastname": "Rodriguez",
+        "emailname": "vrodriguez@est.utn.ac.cr"
+    }, 
+    {
+        "username": "yrojas",
+        "password": "123456",
+        "name": "Yohel",
+        "isActive": true,
+        "lastname": "Herrera",
+        "emailname": "yrojas@est.utn.ac.cr"
+    }, 
+    {
+        "username": "asalazar",
+        "password": "123456",
+        "name": "Alfredo",
+        "isActive": false,
+        "lastname": "Salazar",
+        "emailname": "asalazar@est.utn.ac.cr"
+    }, 
+    {
+        "username": "dsosa",
+        "password": "123456",
+        "name": "Diana",
+        "isActive": true,
+        "lastname": "Sosa",
+        "emailname": "dsosa@est.utn.ac.cr"
+    }, 
+    {
+        "username": "dumana",
+        "password": "123456",
+        "name": "Dorian",
+        "isActive": true,
+        "lastname": "Umana",
+        "emailname": "dumana@est.utn.ac.cr"
+    }, 
+    {
+        "username": "jvargas",
+        "password": "123456",
+        "name": "Justin",
+        "isActive": true,
+        "lastname": "Vargas",
+        "emailname": "jvargas@est.utn.ac.cr"
+    }, 
+    {
+        "username": "jjvasquez",
+        "password": "123456",
+        "name": "Juan Jose",
+        "isActive": false,
+        "lastname": "Vasquez",
+        "emailname": "jjvasquez@est.utn.ac.cr"
+    }, 
+    {
+        "username": "bvega",
+        "password": "123456",
+        "name": "Bairon",
+        "isActive": true,
+        "lastname": "Vega",
+        "emailname": "bvega@est.utn.ac.cr"
+    }, 
+    {
+        "username": "jzuniga",
+        "password": "123456",
+        "name": "Jonathan",
+        "isActive": true,
+        "lastname": "Zuniga",
+        "emailname": "jzuniga@est.utn.ac.cr"
+    }, 
+    {
+        "username": "anapauzuniga",
+        "password": "123456",
+        "name": "Ana Paula",
+        "isActive": false,
+        "lastname": "Zuniga",
+        "emailname": "anapauzuniga@est.utn.ac.cr"
+    }
+]
