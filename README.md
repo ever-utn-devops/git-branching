@@ -173,3 +173,20 @@
     Aborting a cherry-pick.
  
     ``git cherry-pick --abort``
+
+* ### Cherry-pick continue
+    Can be used to continue after resolving conflicts in a failed cherry-pick or revert.
+ 
+    ``git cherry-pick --continue``
+
+* ### Cherry-pick quit
+    Can be used to continue after resolving conflicts in a failed cherry-pick or revert.
+ 
+    ``git cherry-pick --continue``
+
+* ### Cherry-pick skip
+    Skip the current commit and continue with the rest of the sequence..
+ 
+    ``git cherry-pick --skip``
+
+    More information about [Cherry-pick](https://git-scm.com/docs/git-cherry-pick)

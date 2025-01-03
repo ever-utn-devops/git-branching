@@ -1,3 +1,9 @@
+#node
+/rooms-api/node_modules/
+/rooms-api/dist/
+/rooms-api/.env
+
+
 # Logs
 logs
 *.log
