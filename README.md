@@ -190,3 +190,28 @@
     ``git cherry-pick --skip``
 
     More information about [Cherry-pick](https://git-scm.com/docs/git-cherry-pick)
+
+
+<br/>
+
+# Workshop planning
+## Jan 13th 2024
+- Explaining about Versioning Control functionality.
+- Explaining about best practices in branching strategy as part of the Software Development Life Cycle (SDLC).
+- Explaining how to apply Continuous Integration (CI) and its best practices in Github.
+- Create security rules into branches.
+- Starting practical scenarios (using [rooms-api](https://github.com/ever-utn-devops/git-branching/tree/main/rooms-api) project) with git commands
+ 
+    - Cloning and initiating a repository.
+    - Creating and moving between branches, and recovering temporal changes.
+    - Commiting and pushing changes to Github
+
+## Jan 14th 2024
+- Refresh about Git Flow and git commands.
+- Best practices to manage and fix changes conflict when commiting and pushing new changes.
+- Merging changes from feature branch to dev/qa branches through Pull Request (PR) and Cherry-pick.
+ 
+    - Create new changes.
+    - Fix conflicts, commit and push changes.
+    - Code review and merging changes to dev branch through Pull Request.
+    - Move a specific commit to QA branch.
