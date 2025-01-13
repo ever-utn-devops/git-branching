@@ -361,3 +361,6 @@
     - Fix conflicts, commit and push changes.
     - Code review and merging changes to dev branch through Pull Request.
     - Move a specific commit to QA branch.
+
+
+    Cambio por Sergio Quesada.
