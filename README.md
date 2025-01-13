@@ -200,7 +200,7 @@
 - Explaining about best practices in branching strategy as part of the Software Development Life Cycle (SDLC).
 - Explaining how to apply Continuous Integration (CI) and its best practices in Github.
 - Create security rules into branches.
-- Starting practical scenarios (using [rooms-api](https://github.com/ever-utn-devops/git-branching/tree/main/rooms-api) project) with git commands
+- Starting practical scenarios with git commands
  
     - Cloning and initiating a repository.
     - Creating and moving between branches, and recovering temporal changes.
