@@ -18,6 +18,9 @@ module.exports = function(app) {
     app.route('/rooms/:roomName')
       .get(rooms.read_a_room)
 
+    //app.route('/unbooking')
+    //.put(rooms.unbooking)
+    
     //app.route('/rooms/:roomName')
     //  .get(rooms.read_a_room)
     
