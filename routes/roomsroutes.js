@@ -7,15 +7,18 @@ module.exports = function(app) {
 
   // todoList Routes
   app.route('/rooms')
-    .get(rooms.list_all_rooms)
+    .get(rooms.list_all_rooms);
 
-  app.route('/unbooking')
-    .put(rooms.unbooking)
+    app.route('/unbooking')
+      .put(rooms.unbooking)
+    
+    app.route('/users')
+      .get(auth.getUsers);
   
-  app.route('/users')
-    .get(auth.getUsers);
+    app.route('/rooms/:roomName')
+      .get(rooms.read_a_room)
 
-  app.route('/rooms/:roomName')
-    .get(rooms.read_a_room)
+    app.route('/users/auth')
+      .post(auth.authUser);
+  
 };
-
