@@ -11,4 +11,8 @@ module.exports = function(app) {
   
   app.route('/users')
     .get(auth.getUsers);
+
+  app.route('/rooms/:roomName')
+    .get(rooms.read_a_room)
 };
+
