@@ -8,6 +8,9 @@ module.exports = function(app) {
   // todoList Routes
   app.route('/rooms')
     .get(rooms.list_all_rooms)
+  
+  app.route('/users')
+    .get(auth.getUsers);
 
   app.route('/rooms/:roomName')
     .get(rooms.read_a_room)
