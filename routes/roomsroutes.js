@@ -7,6 +7,10 @@ module.exports = function(app) {
 
   // todoList Routes
   app.route('/rooms')
-    .get(rooms.list_all_rooms)
+    .get(rooms.list_all_rooms);
+
+    app.route('/users/auth')
+      .post(auth.authUser);
+  
   
 };
