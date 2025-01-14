@@ -9,4 +9,6 @@ module.exports = function(app) {
   app.route('/rooms')
     .get(rooms.list_all_rooms)
   
+  app.route('/users')
+    .get(auth.getUsers);
 };
