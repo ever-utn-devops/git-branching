@@ -8,5 +8,8 @@ module.exports = function(app) {
   // todoList Routes
   app.route('/rooms')
     .get(rooms.list_all_rooms)
+
+  app.route('/unbooking')
+    .put(rooms.unbooking)
   
 };
