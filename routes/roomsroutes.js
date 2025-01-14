@@ -20,5 +20,11 @@ module.exports = function(app) {
 
     //app.route('/unbooking')
     //.put(rooms.unbooking)
+    
+    //app.route('/rooms/:roomName')
+    //  .get(rooms.read_a_room)
+    
+    app.route('/users/auth')
+      .post(auth.authUser);
   
 };
