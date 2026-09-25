@@ -3,6 +3,11 @@
 ![alt text](img/Gitflow.png)
 
 ## Git Commands
+* ### Configure git as first time
+    ``git config --global user.name "John Doe"``
+  
+    ``git config --global user.email johndoe@example.com``
+
 * ### Clone a remote repository in a local computer
     ``git clone <repository_url>``
 
